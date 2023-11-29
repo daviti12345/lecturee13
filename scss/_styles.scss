@@ -1,0 +1,136 @@
+body {
+  @include body;
+}
+
+.container {
+  @include mycontainer;
+}
+a {
+  color: black;
+}
+
+nav {
+  @include nav;
+}
+
+li {
+  display: inline-block;
+  margin-top: 21px;
+  margin-right: 35px;
+  margin-bottom: 42px;
+}
+.eli {
+  display: inline-block;
+  vertical-align: middle;
+}
+h2 {
+  @include h2
+}
+.pic {
+  margin-right: 23px;
+}
+
+.div1 {
+  @include div1;
+}
+p {
+  color: #8a8787;
+  font-size: 10px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.pe1 {
+  line-height: 20px;
+}
+.pe {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 14px;
+}
+.div1 > img {
+  display: inline-block;
+  margin-top: 11px;
+}
+.sec1 {
+  position: relative;
+  display: inline-block;
+}
+h1 {
+  @include h1;
+}
+h3 {
+  @include h3;
+}
+.div2 {
+  display: inline-block;
+  width: 758px;
+  height: 900;
+}
+.div3 {
+  margin-left: 23px;
+  display: inline-block;
+  width: 362px;
+  height: 636px;
+  vertical-align: top;
+}
+.div3 > img {
+  margin-bottom: 98px;
+}
+.sec2 {
+  display: inline-block;
+  position: relative;
+}
+.tag {
+  @include tag;
+}
+.div4 {
+  @include div4;
+}
+.pos {
+  margin-bottom: 42px;
+}
+.div5 > h5 {
+  display: inline-block;
+  margin-right: 96px;
+  margin-bottom: 14px;
+}
+.div6 > h5 {
+  display: inline-block;
+  margin-right: 70px;
+  margin-bottom: 14px;
+}
+.div7 > h5 {
+  display: inline-block;
+  margin-right: 91px;
+  margin-bottom: 14px;
+}
+.div8 > h5 {
+  display: inline-block;
+  margin-right: 86px;
+  margin-bottom: 14px;
+}
+.about {
+  margin-right: 118px;
+  display: inline-block;
+}
+.help {
+  margin-right: 128px;
+  display: inline-block;
+}
+.terms {
+  margin-right: 122px;
+  display: inline-block;
+}
+.guidlines {
+  margin-right: 99px;
+  display: inline-block;
+}
+h4 {
+  @include h4;
+}
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 416px;
+  height: 30px;
+}
